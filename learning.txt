@@ -10,3 +10,10 @@ babel-preset-env: ruleset for telling babel exactly what pieces of ES6/ES7
 
 Webpack
 Link up JS modules together
+
+
+Handling images with webpack
+  image-webpack-loader: load the image & resize
+  url-loader: check
+    + if image small => include the image in bundle.js as raw data
+    + if image big => include the raw image in the output directory
