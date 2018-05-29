@@ -4,6 +4,9 @@ babel-loader: teaches babel how to work with webpack
 babel-core: knows how to take in code, parse it, and generate some output files
 babel-preset-env: ruleset for telling babel exactly what pieces of ES6/ES7
   syntax to look for, and how to turn it into ES5 code
+=> .babelrc: whenever babel loads up, it looks at .babelrc -> it will see that it's
+  supposed to run babel-preset-env
+
 
 Webpack
 Link up JS modules together

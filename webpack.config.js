@@ -6,7 +6,15 @@ const config = {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js' 
   },
-  mode: 'production'
+  mode: 'production',
+  module: {
+    rules: [
+      {
+        use: 'babel-loader',
+        test: /\.js$/
+      }
+    ]
+  }
 }
 
 module.exports = config;
