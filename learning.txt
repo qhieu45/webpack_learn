@@ -1,0 +1,9 @@
+Babel
+Turn ES6 code in to ES5 code
+babel-loader: teaches babel how to work with webpack
+babel-core: knows how to take in code, parse it, and generate some output files
+babel-preset-env: ruleset for telling babel exactly what pieces of ES6/ES7
+  syntax to look for, and how to turn it into ES5 code
+
+Webpack
+Link up JS modules together
